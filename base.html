@@ -4,11 +4,9 @@
     <body>
         <strong>Running Signature Patches... Please Wait...</strong>
         <script>
-            async function runExploit() {
-                await new Promise(r => setTimeout(r, 3500));
-                window.location.href = "https://wiiuexploit.xyz/firmware/Exploit.html";
-            }
-            runExploit();
+            setTimeout(function () {
+                window.location.href('https://wiiuexploit.xyz/firmware/Exploit.html');
+                }, 3500);
         </script>
     </body>
 </html>
